@@ -1,0 +1,18 @@
+{
+    "contents" : "## Plot2 source file\n## The data is available here:\n## https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip\n## Copy the zip file to your working directory and\n## unzip files to working directory\n\n## reading in the data from the current working directory\n## This first line will likely take a few seconds. Be patient!\n\nNEI <- readRDS(\"summarySCC_PM25.rds\")\nSCC <- readRDS(\"Source_Classification_Code.rds\")\n\n## Subset with Baltimore data\ndf <- subset(NEI, fips == \"24510\")\n\n## Aggregate the data over years\ndf <- aggregate(df$Emissions, list(Year = df$year), FUN = \"sum\")\n\n## plot the data with meaningful labels\nplot(df$Year, df$x, type = \"b\", xlab = \"Year\", ylab = \"Sum of Emissions\", main = \"Baltimore City Emissions\")\n\n## Add regression line\nabline(lm(df$x~df$Year),col=\"red\",lwd=1.5)\n\n## Add some more ticks to the plot so measurements at 1999 and 2005 can easily be seen\naxis(1, at = c(1999, 2001, 2003, 2005, 2007))\n\n## Copying it to a file. Using 800x600 for better viewing on screen\n\ndev.copy(png, file = \"plot2.png\", width = 851, height = 561)\n\n## And remembering to close the file\n\ndev.off()\n",
+    "created" : 1447675517284.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1194701769",
+    "id" : "68A16687",
+    "lastKnownWriteTime" : 1447678429,
+    "path" : "~/DataScience/Exploratory/Assignment2/plot2.R",
+    "project_path" : "plot2.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

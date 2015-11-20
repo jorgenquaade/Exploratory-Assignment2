@@ -1,0 +1,18 @@
+{
+    "contents" : "## The data is available here:\n## https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip\n## Copy the zip file to your working directory and\n## unzip files to working directory\n\n## reading in the data from the current working directory\n## This first line will likely take a few seconds. Be patient!\n\nNEI <- readRDS(\"summarySCC_PM25.rds\")\nSCC <- readRDS(\"Source_Classification_Code.rds\")",
+    "created" : 1447309692321.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3729002335",
+    "id" : "BDE42782",
+    "lastKnownWriteTime" : 1447310147,
+    "path" : "~/DataScience/Exploratory/Assignment2/assignment2.R",
+    "project_path" : "assignment2.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1447309897961.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CE9E4EE1",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "22heghamh6",
+        "caption" : "SCC",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=SCC&cache_key=22heghamh6",
+        "displayedObservations" : 11717,
+        "environment" : "",
+        "object" : "SCC",
+        "totalObservations" : 11717,
+        "variables" : 15
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

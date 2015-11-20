@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1447309893187.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A5E50B04",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "ccuh1awysx",
+        "caption" : "NEI",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=NEI&cache_key=ccuh1awysx",
+        "displayedObservations" : 6497651,
+        "environment" : "",
+        "object" : "NEI",
+        "totalObservations" : 6497651,
+        "variables" : 6
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
